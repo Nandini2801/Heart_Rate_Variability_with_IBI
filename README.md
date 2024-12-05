@@ -5,10 +5,13 @@ This repository contains **open-source data**, **code**, and **results** for ana
 
 ### 1. **Codes**  
 Contains Jupyter notebooks for HRV analysis and model training:  
-- **HRV_Analysis_Team_Maruti.ipynb**: Calculates HRV parameters from raw IBI data.  
-- **XGBoost(ml-model)_Team_Maruti.ipynb**: Code for training the machine learning model (XGBoost).  
-- **Predictions_OmnykData.ipynb**: Generates predictions from raw Omnyk IBI data.  
+- **HRV_Analysis.ipynb**: Calculates HRV parameters from raw IBI data.  
+- **Stress_Analysis_Model(SVM).ipynb**: Code for training the machine learning model (SVM).
+- **Stress_Analysis_Model(SVM).ipynb**: Code for training the machine learning model (XGBoost).  
+- **Stress_Analysis_Prediction.ipynb**: Generates predictions from raw Omnyk IBI data.  
 - **Tabulation_hrvParams.ipynb**: Tabulates HRV parameters, including metrics like SDANN and SDNNI from raw IBI data.
+- **Hrv_plotting.ipynb**: Plots HRV parameters for each patients for analysis.
+  
 
 ### 2. **Saved_Model**  
 This folder contains the pre-trained model:  
